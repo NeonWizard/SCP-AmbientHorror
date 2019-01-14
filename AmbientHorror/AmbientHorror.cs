@@ -35,6 +35,9 @@ namespace AmbientHorror
 			// Register config settings
 			this.AddConfig(new ConfigSetting("ambienthorror_enable", true, SettingType.BOOL, true, "Whether AmbientHorror should be enabled on server start."));
 
+			// Register events
+			this.AddEventHandlers(new Events.MiscEventHandler(this), Priority.Highest);
+
 			// Register commands
 			this.AddCommand("ambienthorrordisable", new Commands.AmbientHorrorDisableCommand(this));
 		}
