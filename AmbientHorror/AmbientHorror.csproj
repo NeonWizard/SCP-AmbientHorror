@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="AmbientHorror.cs" />
     <Compile Include="Commands\AmbientHorrorDisableCommand.cs" />
+    <Compile Include="Events\MiscEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
