@@ -1,3 +1,4 @@
+**!!!UNFINISHED PROJECT!!!**
 # AmbientHorror
 A plugin for SCP:SL Smod2 servers, which makes things spookier.
 
